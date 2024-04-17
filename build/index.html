@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Blackert's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Header -->
+<body class="min-h-screen bg-slate-50 dark:bg-gray-800 dark:text-white">
+    <header class="bg-indigo-400 text-white sticky top-0 z-10">
+        <section class="max-w-4xl mx-auto p-4 flex justify-between items-center ">
+            <h1 class="text-3xl font-medium">
+                <a href="#biography">👾 Jason Blackert</a>
+            </h1>
+            <div>
+                <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">
+                    &#9776;
+                </button>
+                <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
+                    <a href="#biography" class="hover:opacity-90">Biography</a>
+                    <a href="#projects" class="hover:opacity-90">Projects</a>
+                    <a href="#certificates" class="hover:opacity-90">Certificates</a>
+                    <a href="#testimonials" class="hover:opacity-90">Testimonial</a>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+<!-- Body -->
+    <main class="max-w-4xl mx-auto">
+        <section id="biography"
+            class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40">
+            <article class="sm:w-1/2">
+                <h2 class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-center text-slate-900 dark:text-white">
+                    This is<br> <span class="text-indigo-400 dark:text-indigo-300">Jason Blackert</span>
+                </h2>
+                <p class="max-w-md text-2xl mt-4 text-center sm:text-center text-slate-700 dark:text-slate-400">
+                    After studying Computer Engineering at Texas State University, I gained a strong background in Embedded Software and Firmware Engineering through my time working at Tactual Labs Co. and Yotta Energy Co.
+                </p>
+                <p class="max-w-md text-2xl mt-4 text-center sm:text-center text-slate-700 dark:text-slate-400">
+                    Currently, I'm spending my free time training for a marathon and designing a monitoring system to catch the pesky possum munching on our garden at night.
+                </p>
+            </article>
+            <img class="w-1/2 rounded-lg " src="./assets/bust-normal.jpg" alt="Jason Blackert">
+        </section>
+
+        <hr class="mx-auto bg-black dark:bg-white w-2/3">
+
+<!-- Project -->
+        <section id="projects" class="class p-6 my-12 scroll-mt-20">
+
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Engineering Projects
+            </h2>
+
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+                <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./assets/asset-manager.png" alt="">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                        Asset Manager
+                    </h3>
+                </li>
+
+                <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./assets/whiskey.png" alt="">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                        "Whiskey"
+                    </h3>
+                </li>
+
+            <!--<li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-xl">
+                <img class="w-5/6" src="./assets/software-engineer.png" alt="">
+                <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                    Self-Healing Mesh
+                </h3>
+            </li>
+            -->
+            </ul>
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+                <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-xl">
+                    <img class="w-5/6" src="./assets/software-engineer.png" alt="">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                        Self-Healing Mesh
+                    </h3>
+                </li>
+
+
+                <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-xl">
+                    <img class="w-5/6" src="./assets/software-engineer.png" alt="">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                        Self-Healing Mesh
+                    </h3>
+                </li>
+
+            </ul>
+
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-2/3">
+
+<!-- Certificates -->
+
+        <section id="certificates" class="class p-6 my-12">
+
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Certificates
+            </h2>
+
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+                <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./assets/txst-seal.png" alt="">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                        Computer Engineering
+                    </h3>
+
+                    <!--http://mycatalog.txstate.edu/undergraduate/science-engineering/ingram-school/electrical-engineering-computer-specialization-bs/
+                    -->
+                </li>
+
+
+                <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./assets/txst-seal.png" alt="">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                        Texas State Diploma
+                    </h3>
+
+
+                </li>
+            </ul>
+
+
+        </section>
+        <hr class="mx-auto bg-black dark:bg-white w-2/3">
+
+<!-- Testimonials -->
+
+        <section id="certificates" class="class p-6 my-12">
+
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Testimonials
+            </h2>
+            <p class="text-center text-xl">
+                <i>"It was a pleasure working with Jason. He was a highly proactive and determined individual, always eager to get things done. He demonstrated a strong desire for continuous learning and was enthusiastic about sharing his knowledge with others. Without a doubt, he is someone who is willing to go above and beyond to ensure that projects are successfully completed. I have no doubt that Jason will continue to excel in his career and I wish him every success in his future endeavors." <br> - Luis Aguilar</i><br><br>
+            </p>
+
+             <p class="text-center text-xl">
+                <i>"Jason is someone who knows how to lead by example. I consider him to be one of my early mentors even though we are around the same age. He has provided me great insight in the technology space, and will always go the extra mile to make sure a sound understanding in an unfamiliar concept is gained. If I had to describe Jason in one word it would be experienced. He knows how to execute and teach others to do the same. These are vital traits for an engineer to have." <br>- Asa Murphy</i><br><br>
+            </p>
+        </p>
+        </section>
+
+    </main>
+</body>
+
+</html>
