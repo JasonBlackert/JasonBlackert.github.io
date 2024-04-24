@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html", './node_modules/tw-elements/js/**/*.js'],
+  content: [
+        "./*.html",
+        './node_modules/tw-elements/js/**/*.js',
+        "./node_modules/flowbite/**/*.js"
+      ],
   theme: {
     extend: {
       boxShadow: {
@@ -9,5 +13,8 @@ module.exports = {
       }
     },
   },
-  plugins: [require('tw-elements/plugin.cjs')],
+  plugins: [
+    require('tw-elements/plugin.cjs'),
+    require('flowbite/plugin')
+  ],
 }
