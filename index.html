@@ -9,7 +9,7 @@
     <title>Jason Blackert's Portfolio</title>
     <link rel="stylesheet" href="./build/css/style.css">
     <link rel="icon" href=./build/assets/space-invaders.ico>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />-->
 </head>
 
 <!-- Header -->
@@ -25,7 +25,7 @@
                 </button>
                 <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
                     <a href="#biography" class="hover:opacity-90">Biography</a>
-                    <a href="#projects" class="hover:opacity-90">Projects</a>
+                    <a href="#projects-engineering" class="hover:opacity-90">Projects</a>
                     <a href="#certificates" class="hover:opacity-90">Certificates</a>
                     <a href="#testimonials" class="hover:opacity-90">Testimonial</a>
                 </nav>
@@ -33,7 +33,7 @@
         </section>
     </header>
 
-<!-- Body -->
+<!-- Biography -->
     <main class="max-w-5xl mx-auto">
         <section id="biography"
             class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40">
@@ -50,15 +50,13 @@
             </article>
             <img class="w-1/2 rounded-lg " src="./build/assets/bust-normal.jpg" alt="Jason Blackert">
         </section>
-
         <hr class="mx-auto bg-black dark:bg-white w-2/3">
 
 <!-- Quote -->
 
         <section id="hobbies" class="class p-6 scroll-mt-20 my-12">
-
             <figure class="my-12">
-                <blockquote class="bg-indigo-400 dark:bg-gray-800 pl-14 pr-8 py-12 rounded-3xl relative">
+                <blockquote class="bg-indigo-400 dark:bg-gray-800 pl-14 pr-8 py-24 rounded-3xl relative">
                     <p
                         class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2">
                         --But I work hard and never give up; that is my gift.
@@ -68,16 +66,13 @@
                     &#8212;Rock Lee, Naruto
                 </figcaption>
             </figure>
-
-
         </section>
-
         <hr class="mx-auto bg-black dark:bg-white w-2/3">
 
 
 <!-- Projects -->
 <!-- Engineering Projects -->
-        <section id="projects" class="class p-6 my-12 scroll-mt-20">
+        <section id="projects-engineering" class="class p-6 my-12 scroll-mt-20">
 
             <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
                 Engineering <span class="text-indigo-400 dark:text-indigo-300">Projects</span>
@@ -86,46 +81,46 @@
             <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
                    <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low">
                     <a href="https://github.com/JasonBlackert/mqtt-app">
-                    <img src="./build/assets/asset-manager.png" alt="MQTT-App"></a>
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-                         Asset Manager
-                    </h3>
-                    <p class=" text-xl">
-                        PyQt5 Application
-                    </p>
+                        <img src="./build/assets/asset-manager.png" alt="MQTT-App">
+                        <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                            Asset Manager
+                        </h3>
+                        <p class="text-xl text-center">
+                            PyQt5 Application
+                        </p>
+                    </a>
                 </li>
 
 
                 <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low">
                     <a href="https://github.com/JasonBlackert/whiskey">
-                    <img src="./build/assets/whiskey.png" alt=""></a>
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-                        "Whiskey"
-                    </h3>
-                    <p class="text-xl">
-                        Flask Application
-                    </p>
+                        <img src="./build/assets/whiskey.png" alt="">
+                        <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                            "Whiskey"
+                        </h3>
+                        <p class="text-xl text-center">
+                            Flask Application
+                        </p>
+                    </a>
                 </li>
 
                 <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low">
                     <a href="https://github.com/JasonBlackert/JasonBlackert.github.io">
-                    <img class="w-64" src="./build/assets/bust-bw.jpg" alt=""></a>
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-                        GitHub.io Source
-                    </h3>
-                    <p class="text-xl">
-                        Tailwind CSS
-                    </p>
+                        <img class="w-64" src="./build/assets/bust-bw.jpg" alt="">
+                        <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                            GitHub.io Source
+                        </h3>
+                        <p class="text-xl text-center">
+                            Tailwind CSS
+                        </p>
+                    </a>
                 </li>
-
-
             </ul>
         </section>
-
         <hr class="mx-auto bg-black dark:bg-white w-2/3">
 
 <!-- Personal Projects -->
-        <section id="projects" class="class p-6 my-12 scroll-mt-20">
+        <section id="projects-personal" class="class p-6 my-12 scroll-mt-20">
             <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
                 Personal <span class="text-indigo-400 dark:text-indigo-300">Projects</span>
             </h2>
@@ -133,36 +128,38 @@
             <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
                 <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low">
                     <a href="https://github.com/JasonBlackert/surge">
-                    <img class="w-5/6" src="./build/assets/software-engineer.png" alt=""></a>
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-                        Surge
-                    </h3>
-                    <p class="text-xl">
-                        Self-healing WiFi Mesh
-                    </p>
+                        <img class="w-5/6" src="./build/assets/software-engineer.png" alt="">
+                        <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                            Surge
+                        </h3>
+                        <p class="text-xl text-center">
+                            Self-healing WiFi Mesh
+                        </p>
+                    </a>
                 </li>
-
 
                 <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low">
                     <a href="https://github.com/JasonBlackert/drums">
-                    <img class="w-5/6" src="./build/assets/software-engineer.png" alt=""></a>
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-                        D.Ru.M.S.
-                    </h3>
-                    <p class="text-xl">
-                        Wirelss Image Relay
-                    </p>
+                        <img class="w-5/6" src="./build/assets/software-engineer.png" alt="">
+                        <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                            D.Ru.M.S.
+                        </h3>
+                        <p class="text-xl text-center">
+                            Wirelss Image Relay
+                        </p>
+                    </a>
                 </li>
 
                 <li class="w-2/3 flex sm:w-5/6 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low">
                     <a href="https://github.com/JasonBlackert/insight">
-                    <img class="w-5/6" src="./build/assets/software-engineer.png" alt=""></a>
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-                        Insight
-                    </h3>
-                    <p class="text-xl">
-                        Passive AI Assistant
-                    </p>
+                        <img class="w-5/6" src="./build/assets/software-engineer.png" alt="">
+                        <h3 class="text-3xl text-center text-slate-900 dark:text-white">
+                            Insight
+                        </h3>
+                        <p class="text-xl text-center">
+                            Passive AI Assistant
+                        </p>
+                    </a>
                 </li>
             </ul>
 
@@ -179,36 +176,39 @@
             <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
                 <li class="w-2/3 flex sm:w-1/2 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low">
                     <a href="https://mycatalog.txstate.edu/undergraduate/science-engineering/ingram-school/electrical-engineering-computer-specialization-bs/">
-                    <img src="./build/assets/txst-seal.png" alt=""></a>
-                    <h3 class="text-3xl sm:text-xl text-center text-slate-900 dark:text-white">
-                        Computer Engineering
-                    </h3>
-                    <p class="text-xl sm:text-sm">
-                        Electrical Engineering, BS
-                    </p>
+                        <img src="./build/assets/txst-seal.png" alt="">
+                        <h3 class="text-3xl sm:text-xl text-center text-slate-900 dark:text-white">
+                            Computer Engineering
+                        </h3>
+                        <p class="text-xl sm:text-sm text-center">
+                            Electrical Engineering, BS
+                        </p>
+                    </a>
                 </li>
 
 
                 <li class="w-2/3 flex sm:w-1/2 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low ">
                     <a href="https://mycatalog.txstate.edu/undergraduate/science-engineering/ingram-school/electrical-engineering-computer-specialization-bs/">
-                    <img src="./build/assets/txst-seal.png" alt=""></a>
-                    <h3 class="text-3xl sm:text-xl text-center text-slate-900 dark:text-white">
-                        TBD
-                    </h3>
-                    <p class="text-xl sm:text-sm">
-                        TBD
-                    </p>
+                        <img src="./build/assets/txst-seal.png" alt="">
+                        <h3 class="text-3xl sm:text-xl text-center text-slate-900 dark:text-white">
+                            TBD
+                        </h3>
+                        <p class="text-xl sm:text-sm text-center">
+                            TBD
+                        </p>
+                    </a>
                 </li>
 
                 <li class="w-2/3 flex sm:w-1/2 flex-col items-center border border-solid border-slate-900 dark:border-gray-200 bg-white dark:bg-gray-800 py-6 px-2 rounded-3xl shadow-low ">
                     <a href="https://mycatalog.txstate.edu/undergraduate/science-engineering/ingram-school/electrical-engineering-computer-specialization-bs/">
-                    <img src="./build/assets/txst-seal.png" alt=""></a>
-                    <h3 class="text-3xl sm:text-xl text-center text-slate-900 dark:text-white">
-                        TBD
-                    </h3>
-                    <p class="text-xl sm:text-sm">
-                        TBD
-                    </p>
+                        <img src="./build/assets/txst-seal.png" alt="">
+                        <h3 class="text-3xl sm:text-xl text-center text-slate-900 dark:text-white">
+                            TBD
+                        </h3>
+                        <p class="text-xl sm:text-sm text-center">
+                            TBD
+                        </p>
+                    </a>
                 </li>
             </ul>
 
@@ -218,7 +218,7 @@
 
 <!-- Testimonials & Recommendations -->
 
-        <div id="testimonials" class="class p-6 my-12 scroll-mt-20">
+        <section id="testimonials" class="class p-6 my-12 scroll-mt-20">
             <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
                 Testimonials & <span class="text-indigo-400 dark:text-indigo-300">Recommendations</span>
             </h2>
@@ -233,10 +233,9 @@
                                     <img src="./build/assets/linkedin-image-asa.jpg" class="=absolute rounded-full w-12 h-12" alt="Asa Murphy">
                                 <div class="flex flex-col px-2">
                                     <div class="flex flow-row">
-                                        <strong class=" text-gray-800 dark:text-white"> Asa Murphy</strong> <span class="text-gray-600 dark:text-slate-200 px-1"> · 1st</span>
-                                    </div>
+                                        <strong class="text-gray-800 dark:text-white"> Asa Murphy</strong> <span class="text-gray-600 dark:text-slate-200 px-1"> · 1st</span></div>
                                     <span class="top-14 tracking-normal text-gray-800 dark:text-white">Software Engineer</span>
-                                    <i class="text-gray-800 dark:text-white"> April 1, 2024</i>
+                                    <i class="text-gray-800 dark:text-white "> April 1, 2024</i>
                                 </div>
                             </div>
                         </a>
@@ -252,14 +251,14 @@
                                     <img src="./build/assets/linkedin-image-luis.jpg" class="=absolute rounded-full w-12 h-12" alt="Asa Murphy">
                                 <div class="flex flex-col px-2">
                                     <div class="flex flow-row">
-                                        <strong class=""> Luis Alberto Aguilar García</strong> <span class="text-gray-600 dark:text-slate-200 px-1"> · 1st</span>
+                                        <strong class="text-gray-800 dark:text-white"> Luis Alberto Aguilar García</strong> <span class="text-gray-600 dark:text-slate-200 px-1"> · 1st</span>
                                     </div>
-                                    <span class="top-14 tracking-normal">Firmware Engineer | MBA</span>
-                                    <i> March 1, 2024</i>
+                                    <span class="top-14 tracking-normal text-gray-800 dark:text-white">Firmware Engineer | MBA</span>
+                                    <i class="text-gray-800 dark:text-white"> March 1, 2024</i>
                                 </div>
                             </div>
                         </a>
-                        <p class="px-12 py-4 mr-4">
+                        <p class="px-12 py-4 mr-4 text-gray-800 dark:text-white">
                             "It was a pleasure working with Jason. He was a highly proactive and determined individual, always eager to get things done. He demonstrated a strong desire for continuous learning and was enthusiastic about sharing his knowledge with others. Without a doubt, he is someone who is willing to go above and beyond to ensure that projects are successfully completed. I have no doubt that Jason will continue to excel in his career and I wish him every success in his future endeavors."
                         </p>
 
